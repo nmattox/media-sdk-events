@@ -1,0 +1,27 @@
+{
+  "name": "media-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@mparticle/web-adobe-client-kit": "^2.0.2-rc.1",
+    "@mparticle/web-media-sdk": "^1.1.1",
+    "@mparticle/web-mixpanel-kit": "^2.0.0-rc.2",
+    "@mparticle/web-sdk": "^2.10.1",
+    "lodash": "^4.17.15"
+  }
+}
